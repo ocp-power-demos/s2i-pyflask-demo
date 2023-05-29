@@ -7,7 +7,7 @@ def hello_world():
 
 @app.route('/version')
 def get_version():
-    return '<h1>App version : <b>1.0</b></h1>'
+    return '<h1>App version : <b>2.0</b></h1>'
 
 @app.route('/test')
 def get_test():
